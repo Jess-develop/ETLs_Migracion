@@ -1,0 +1,518 @@
+/*PROCEDIMIENTOS MIGRACION*/
+/*
+    CUMST_TOP
+*/
+CREATE PROCEDURE SP_CUMST_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CUMST_TOP'; 
+END
+GO
+
+
+/*
+    CUMST_PSL
+*/
+CREATE PROCEDURE SP_CUMST_PSL
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CUMST_PSL'; 
+END
+GO
+
+
+/*
+    CUMAD_TOP
+*/
+CREATE PROCEDURE SP_CUMAD_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CUMAD_TOP'; 
+END
+GO
+
+/*
+    CUFIN_TOP
+*/
+CREATE PROCEDURE SP_CUFIN_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CUFIN_TOP'; 
+END
+GO
+
+/*
+    DEALS_TOP
+*/
+CREATE PROCEDURE SP_DEALS_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'DEALS_TOP'; 
+END
+GO
+
+
+/*
+    DLCNT_TOP
+*/
+CREATE PROCEDURE SP_DLCNT_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'DLCNT_TOP'; 
+END
+GO
+/*
+    DLCLP_TOP
+*/
+CREATE PROCEDURE SP_DLCLP_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'DLCLP_TOP'; 
+END
+GO
+
+/*
+    DLPDX_TOP
+*/
+CREATE PROCEDURE SP_DLPDX_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'DLPDX_TOP'; 
+END
+GO
+
+/*
+    DLSDE_TOP
+*/
+CREATE PROCEDURE SP_DLSDE_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'DLSDE_TOP'; 
+END
+GO
+
+/*
+    DLITP_TOP
+*/
+CREATE PROCEDURE SP_DLITP_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'DLITP_TOP'; 
+END
+GO
+
+/*
+    DLPMT_TOP
+*/
+CREATE PROCEDURE SP_DLPMT_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'DLPMT_TOP'; 
+END
+GO
+
+/*
+    ROCOL_TOP
+*/
+CREATE PROCEDURE SP_ROCOL_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'ROCOL_TOP'; 
+END
+GO
+
+/*
+    RCOLL_TOP
+*/
+CREATE PROCEDURE SP_RCOLL_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'RCOLL_TOP'; 
+END
+
+
+/*
+    RORES_TOP
+*/
+CREATE PROCEDURE SP_RORES_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'RORES_TOP'; 
+END
+
+
+/*
+    FIXMST_PSL
+*/
+CREATE PROCEDURE SP_FIXMST_PSL
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'FIXMST_PSL'; 
+END
+GO
+
+/*
+    CVGLINP_PSL
+*/
+CREATE PROCEDURE SP_CVGLINP_PSL
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CVGLINP_PSL'; 
+END
+GO
+
+/*
+    CUADI_PSL
+*/
+CREATE PROCEDURE SP_CUADI_PSL
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CUADI_PSL'; 
+END
+
+/*
+    CUADI_TOP
+*/
+CREATE PROCEDURE SP_CUADI_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CUADI_TOP'; 
+END
+
+/*
+    CUCNT_TOP
+*/
+CREATE PROCEDURE SP_CUCNT_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CUCNT_TOP'; 
+END
+
+/*
+    CUMAD_PSL
+*/
+CREATE PROCEDURE SP_CUMAD_PSL
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CUMAD_PSL'; 
+END
+
+/*
+    CUREL_TOP
+*/
+CREATE PROCEDURE SP_CUREL_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CUREL_TOP'; 
+END
+
+/*
+    CUIFI_TOP
+*/
+CREATE PROCEDURE SP_CUIFI_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CUIFI_TOP'; 
+END
+
+/*
+    CUCNT_PSL
+*/
+CREATE PROCEDURE SP_CUCNT_PSL
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CUCNT_PSL'; 
+END
+
+/*
+    CALSEGNICHO_TOP
+*/
+CREATE PROCEDURE SP_CALSEGNICHO_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CALSEGNICHO_TOP'; 
+END
+
+/*
+    CHGCU_TOP
+*/
+CREATE PROCEDURE SP_CHGCU_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CHGCU_TOP'; 
+END
+
+/*
+    CRUCERISK_PSL
+*/
+CREATE PROCEDURE SP_CRUCERISK_PSL
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CRUCERISK_PSL'; 
+END
+
+/*
+    CRUCERISK_TOP
+*/
+CREATE PROCEDURE SP_CRUCERISK_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CRUCERISK_TOP'; 
+END
+
+/*
+    CUCAL_TOP
+*/
+CREATE PROCEDURE SP_CUCAL_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CUCAL_TOP'; 
+END
+
+/*
+    CUENT_TOP
+*/
+CREATE PROCEDURE SP_CUENT_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CUENT_TOP'; 
+END
+
+/*
+    CUFAT_TOP
+*/
+CREATE PROCEDURE SP_CUFAT_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'CUFAT_TOP'; 
+END
+
+/*
+    DENOU_TOP
+*/
+CREATE PROCEDURE SP_DENOU_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'DENOU_TOP'; 
+END
+
+/*
+    DLCAL_TOP
+*/
+CREATE PROCEDURE SP_DLCAL_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'DLCAL_TOP'; 
+END
+
+/*
+    DLCOM_TOP
+*/
+CREATE PROCEDURE SP_DLCOM_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'DLCOM_TOP'; 
+END
+
+/*
+    DLEXC_TOP
+*/
+CREATE PROCEDURE SP_DLEXC_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'DLEXC_TOP'; 
+END
+
+/*
+    DLPRM_TOP
+*/
+CREATE PROCEDURE SP_DLPRM_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'DLPRM_TOP'; 
+END
+
+/*
+    DLSALDIA_TOP
+*/
+CREATE PROCEDURE SP_DLSALDIA_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'DLSALDIA_TOP'; 
+END
+
+/*
+    DLSTS_TOP
+*/
+CREATE PROCEDURE SP_DLSTS_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'DLSTS_TOP'; 
+END
+
+/*
+    GEOEXT_TOP
+*/
+CREATE PROCEDURE SP_GEOEXT_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'GEOEXT_TOP'; 
+END
+
+/*
+    HSDLPMT_TOP
+*/
+CREATE PROCEDURE SP_HSDLPMT_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'HSDLPMT_TOP'; 
+END
+
+/*
+    MISPYG_TOP
+*/
+CREATE PROCEDURE SP_MISPYG_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'MISPYG_TOP'; 
+END
+
+/*
+    PACSG_TOP
+*/
+CREATE PROCEDURE SP_PACSG_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'PACSG_TOP'; 
+END
+
+/*
+    PVCHG_TOP
+*/
+CREATE PROCEDURE SP_PVCHG_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'PVCHG_TOP'; 
+END
+
+/*
+    PVDFO_TOP
+*/
+CREATE PROCEDURE SP_PVDFO_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'PVDFO_TOP'; 
+END
+
+/*
+    PVDSB_TOP
+*/
+CREATE PROCEDURE SP_PVDSB_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'PVDSB_TOP'; 
+END
+
+/*
+    PVPRL_TOP
+*/
+CREATE PROCEDURE SP_PVPRL_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'PVPRL_TOP'; 
+END
+
+/*
+    PVSGR_TOP
+*/
+CREATE PROCEDURE SP_PVSGR_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'PVSGR_TOP'; 
+END
+
+/*
+    RMMST_TOP
+*/
+CREATE PROCEDURE SP_RMMST_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'RMMST_TOP'; 
+END
+
+/*
+    ROCIN_TOP
+*/
+CREATE PROCEDURE SP_ROCIN_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'ROCIN_TOP'; 
+END
+
+/*
+    TRANS_PSL
+*/
+CREATE PROCEDURE SP_TRANS_PSL
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'TRANS_PSL'; 
+END
+
+/*
+    TRANS_TOP
+*/
+CREATE PROCEDURE SP_TRANS_TOP
+AS
+  BEGIN 
+  WAITFOR DELAY '00:01'; 
+  EXEC msdb.dbo.sp_start_job N'TRANS_TOP'; 
+END
